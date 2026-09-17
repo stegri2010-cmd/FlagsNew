@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FlagsNew.Flags"
+             Title="Flags">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label 
+      Text="France"
+      VerticalOptions="Center" 
+      HorizontalOptions="Center" />
+            <Grid ColumnDefinitions="*,*,*" HeightRequest="100">
+                <BoxView BackgroundColor="Blue" Grid.Column="0"/>
+                <BoxView BackgroundColor="White" Grid.Column="1"/>
+                <BoxView BackgroundColor="Red" Grid.Column="2"/>
+            </Grid>
+            <Label 
+       Text="Germany"
+       VerticalOptions="Center" 
+       HorizontalOptions="Center" />
+            <Grid RowDefinitions="*,*,*" HeightRequest="100">
+                <BoxView BackgroundColor="Black" Grid.Row="0"/>
+                <BoxView BackgroundColor="red" Grid.Row="1"/>
+                <BoxView BackgroundColor="yellow" Grid.Row="2"/>
+            </Grid>
+            <Label 
+       Text="Switzerland"
+       VerticalOptions="Center" 
+       HorizontalOptions="Center" />
+            <Grid ColumnDefinitions="*,*,*,*,*" RowDefinitions="*,*,*,*,*" HeightRequest="100">
+                <BoxView BackgroundColor="Red" Grid.Row="0" Grid.Column="0"/>
+                <BoxView BackgroundColor="White" Grid.Row="1" Grid.Column="2"/>
+                <BoxView BackgroundColor="White" Grid.Row="2" Grid.Column="1"/>
+                <BoxView BackgroundColor="White" Grid.Row="2" Grid.Column="2"/>
+                <BoxView BackgroundColor="White" Grid.Row="2" Grid.Column="3"/>
+                <BoxView BackgroundColor="White" Grid.Row="3" Grid.Column="2"/>
+                <BoxView BackgroundColor="Red" Grid.Row="0" Grid.Column="1"/>
+                <BoxView BackgroundColor="Red" Grid.Row="0" Grid.Column="2"/>
+                <BoxView BackgroundColor="Red" Grid.Row="0" Grid.Column="3"/>
+                <BoxView BackgroundColor="Red" Grid.Row="0" Grid.Column="4"/>
+                <BoxView BackgroundColor="Red" Grid.Row="2" Grid.Column="0"/>
+                <BoxView BackgroundColor="Red" Grid.Row="1" Grid.Column="0"/>
+                <BoxView BackgroundColor="Red" Grid.Row="1" Grid.Column="1"/>
+                <BoxView BackgroundColor="Red" Grid.Row="1" Grid.Column="3"/>
+                <BoxView BackgroundColor="Red" Grid.Row="1" Grid.Column="4"/>
+                <BoxView BackgroundColor="Red" Grid.Row="2" Grid.Column="4"/>
+                <BoxView BackgroundColor="Red" Grid.Row="3" Grid.Column="0"/>
+                <BoxView BackgroundColor="Red" Grid.Row="3" Grid.Column="1"/>
+                <BoxView BackgroundColor="Red" Grid.Row="3" Grid.Column="3"/>
+                <BoxView BackgroundColor="Red" Grid.Row="3" Grid.Column="4"/>
+                <BoxView BackgroundColor="Red" Grid.Row="4" Grid.Column="0"/>
+                <BoxView BackgroundColor="Red" Grid.Row="4" Grid.Column="1"/>
+                <BoxView BackgroundColor="Red" Grid.Row="4" Grid.Column="2"/>
+                <BoxView BackgroundColor="Red" Grid.Row="4" Grid.Column="3"/>
+                <BoxView BackgroundColor="Red" Grid.Row="4" Grid.Column="4"/>
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

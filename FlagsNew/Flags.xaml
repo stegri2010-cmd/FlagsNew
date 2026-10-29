@@ -54,6 +54,88 @@
                 <BoxView BackgroundColor="Red" Grid.Row="4" Grid.Column="3"/>
                 <BoxView BackgroundColor="Red" Grid.Row="4" Grid.Column="4"/>
             </Grid>
+
+            <Label
+                Text="Israel"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"/>
+            <Grid BackgroundColor="White" HeightRequest="200">
+                <BoxView
+                    BackgroundColor="Blue"
+                    HeightRequest="20"
+                    VerticalOptions="Start"
+                    Margin="0,35,0,0"/>
+                <BoxView
+                    BackgroundColor="Blue"
+                    HeightRequest="20"
+                    VerticalOptions="End"
+                    Margin="0,0,0,35"/>
+
+                <Image
+                    Source="triangle.png"
+                    WidthRequest="100"
+                    HeightRequest="100"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    Margin="0,-15,0,0"/>
+
+
+                <Image
+                    Source="triangle.png"
+                    WidthRequest="100"
+                    HeightRequest="100"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    Rotation="180"
+                    Margin="0,15,0,0"/>
+            </Grid>
+
+            <Label
+                Text="Canada"
+                VerticalOptions="Center"
+                HorizontalOptions="Center" />
+
+            <Grid ColumnDefinitions="*,2*,*" HeightRequest="200">
+                <BoxView BackgroundColor="Red" Grid.Column="0"/>
+                <BoxView BackgroundColor="White" Grid.Column="1"/>
+                <BoxView BackgroundColor="Red" Grid.Column="2"/>
+
+                <Image
+                    Source="redleaf.png"
+                    Grid.Column="1"
+                    WidthRequest="100"
+                    HeightRequest="100"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"/>
+
+            </Grid>
+
+            <Label
+                Text="USA"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"/>
+
+            <Grid RowDefinitions="*,*,*,*,*,*,*,*,*,*,*,*,*" HeightRequest="200">
+                <BoxView BackgroundColor="Red" Grid.Row="0"/>
+                <BoxView BackgroundColor="White" Grid.Row="1"/>
+                <BoxView BackgroundColor="Red" Grid.Row="2"/>
+                <BoxView BackgroundColor="White" Grid.Row="3"/>
+                <BoxView BackgroundColor="Red" Grid.Row="4"/>
+                <BoxView BackgroundColor="White" Grid.Row="5"/>
+                <BoxView BackgroundColor="Red" Grid.Row="6"/>
+                <BoxView BackgroundColor="White" Grid.Row="7"/>
+                <BoxView BackgroundColor="Red" Grid.Row="8"/>
+                <BoxView BackgroundColor="White" Grid.Row="9"/>
+                <BoxView BackgroundColor="Red" Grid.Row="10"/>
+                <BoxView BackgroundColor="White" Grid.Row="11"/>
+                <BoxView BackgroundColor="Red" Grid.Row="12"/>
+                <Image
+                    Source="america.png"
+                    HorizontalOptions="Start"
+                    VerticalOptions="Start"
+                    WidthRequest="150"
+                    HeightRequest="108"/>
+            </Grid>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
